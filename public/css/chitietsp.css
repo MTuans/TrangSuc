@@ -1,0 +1,86 @@
+.sp-container{
+    margin:50px;
+    background-color:whitesmoke;
+}
+.sanpham img{
+    padding:80px;
+    margin-left:20px;
+}
+.thongtin{
+    float:right;
+    transform: translateX(-20%);    
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-top: 60px;
+    line-height: 2;
+}
+    .buy-button  {
+        width: 130px;
+        height: 40px;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(15, 15, 15);
+        border: none;
+        color: white;
+        font-weight: 600;
+        gap: 8px;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+        position: relative;
+        overflow: hidden;
+        transition-duration: .3s;
+      }
+      .buy-button::before {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        content: "";
+        background-color: white;
+        border-radius: 50%;
+        left: -100%;
+        top: 0;
+        transition-duration: .3s;
+        mix-blend-mode: difference;
+      }
+      
+      .buy-button:hover::before {
+        transition-duration: .3s;
+        transform: translate(100%,-50%);
+        border-radius: 0;
+      }
+      
+      .buy-button:active {
+        transform: translate(5px,5px);
+        transition-duration: .3s;
+      }
+.gia{
+  color: #f42424;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 0 auto;
+}
+.gia del{
+    color:gray;
+    margin:10px;
+ }
+.splq{
+    border-top: 1px solid black;
+}
+.splq h1{
+    text-align: center;
+    padding:20px;
+    margin:60px;
+}
+.splq img{
+  width: 200px;
+  height: 200px;
+  margin-left:50px;
+  padding:20px;
+  background-color:whitesmoke;
+  border-radius: 10px;
+
+}
+.splq img:hover{
+  transform: scale(1.1);
+}
